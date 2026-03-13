@@ -1,0 +1,38 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.movie-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.movie-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.star {
+  font-size: 25px;
+  cursor: pointer;
+  color: gray;
+}
+
+.star:hover {
+  color: gold;
+}
+
+.active {
+  color: gold;
+}
